@@ -57,7 +57,8 @@ public class Delivery {
             deliveryRequested.publishAfterCommit();
              */
 
-            long delayed = (long) (400 + Math.random() * 300);
+            //long delayed = (long) (400 + Math.random() * 300);
+            long delayed = 0;
             try {
                 //Thread.currentThread().sleep((long) (400 + Math.random() * 300));
                 Thread.currentThread().sleep((long) delayed);
