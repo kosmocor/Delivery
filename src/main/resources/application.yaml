@@ -25,10 +25,10 @@ spring:
       bindings:
         event-in:
           group: Delivery
-          destination: hotelmanage
+          destination: accommodation
           contentType: application/json
         event-out:
-          destination: hotelmanage
+          destination: accommodation
           contentType: application/json
 
 logging:
@@ -61,10 +61,10 @@ spring:
       bindings:
         event-in:
           group: Delivery
-          destination: hotelmanage
+          destination: accommodation
           contentType: application/json
         event-out:
-          destination: hotelmanage
+          destination: accommodation
           contentType: application/json
 api:
   url:
