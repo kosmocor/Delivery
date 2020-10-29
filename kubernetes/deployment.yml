@@ -16,9 +16,15 @@ spec:
     spec:
       containers:
         - name: delivery
-          image: username/delivery:latest
+          image: team421acr.azurecr.io/delivery:latest
           ports:
             - containerPort: 8080
+#          env:
+#            - name: configurl
+#              valueFrom:
+#                configMapKeyRef:
+#                  name: apiurl
+#                  key: url
           resources:
             limits:
               cpu: 500m
